@@ -6,7 +6,8 @@
 
     <!-- Linkss -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <title>Table</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <h1>Table Page</h1>
 
     <ul>
-        <li><a href="index.html">Back</a></li>
+        <li><a href="index.html">Back to index</a></li>
     </ul>
 
     <!-- Table -->
@@ -29,43 +30,46 @@
         </thead>
         <tbody>
             <tr>
-            <th scope="row">Mercury</th>
-            <td>yoshi</td>
-            <td>jpg</td>
-            <td>-</td>
+                <!-- Link to actual png: https://www.pinterest.com/pin/815221970073537807/ -->
+                <td><i class="fa-solid fa-file-image"></i></td>
+                <td><a href="../yoshi.jpg">yoshi</a></td>
+                <td>jpg</td>
+                <td>-</td>
             </tr>
             <tr>
-            <th scope="row">Venus</th>
-            <td>table</td>
-            <td>html</td>
-            <td>-</td>
+                <td><i class="fa-brands fa-html5"></i></td>
+                <td><a href="../about/jeff.html">jeff</a></td>
+                <td>html</td>
+                <td>-</td>
             </tr>
             <tr>
-            <th scope="row">Earth</th>
-            <td>filler</td>
-            <td>json</td>
-            <td>-</td>
+                <td><i class="fa-solid fa-code"></i></td>
+                <td><a href="../filler.json">filler</a></td>
+                <td>json</td>
+                <td>-</td>
             </tr>
             <tr>
-            <th scope="row">Mars</th>
-            <td>plainText</td>
-            <td>txt</td>
-            <td>-</td>
+                <td><i class="fa-regular fa-file-lines"></i></td>
+                <td><a href="../plainText.txt">plainText</a></td>
+                <td>txt</td>
+                <td>-</td>
             </tr>
-            <th scope="row">Jupiter</th>
-            <td>Hello</td>
-            <td>pdf</td>
-            <td>-</td>
+                <td><i class="fa-solid fa-file-pdf"></i></td>
+                <td><a href="../Hello.pdf">Hello</a></td>
+                <td>pdf</td>
+                <td>-</td>
             </tr>
         </tbody>
         <tfoot>
-            <tr>
-            <th scope="row">Average</th>
-            <td>9,126</td>
-            <td>0.91</td>
-            <td>341</td>
-            </tr>
+            
         </tfoot>
     </table>
+
+    <!-- Unordered list -->
+    <ul>
+        <li>When the files become hyper links they visually change into hyperlinks</li>
+        <li>When you click on the hyperlink the path to the file is the exact same in the web url as it is in the program</li>
+        <li>Reason 3</li>
+    </ul>
 </body>
 </html>
